@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* **************************************** */
+/* description : 미래유망 온다쌤
+/* keywords : 온다프로필, 온다자기소개
+/* author : 온다 */ 
+/* create Date : 2024-09-19
+/* update Date : 2024-09-19
+/* **************************************** */
+
+/* @import url(파일명.css); */
+
+/* 윈도우 사이즈 출력 */
+#resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
+
+header{border-bottom:1px solid #ccc;}
+
+/* ********************************************************* */
+/* 반응형 Mobile 우선 그리드 시스템
+/* ********************************************************* */
+@media screen and (max-width:576px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+
+    /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
+    .custom-innerWrap{
+        width: 100%;
+        min-width:320px;
+        padding:0 20px;
+    }
+}
+
+
+   
+/* ********************************************************* */
+/* 반응형 Tablet(Tablet Vertical/세로모드)
+/* ********************************************************* */
+@media screen and (min-width:577px) and (max-width:1199px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+
+    /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
+    .custom-innerWrap{
+        width: 960px;
+        margin:0 auto;
+        padding:0 20px;
+    }
+}
+   
+/* ********************************************************* */
+/* 반응형 PC(Tablet Horizontal/가로모드)
+/* ********************************************************* */
+@media screen and (min-width:1200px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+    
+    /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
+    .custom-innerWrap{
+        width: 1140px;
+        margin:0 auto;
+    }
+    
+}
+.mainvi{
+    background-image: url(/img/mainbg.png);
+    height: 580px;
+
+}
+#maintop{
+    text-align: center;
+    font-size: 50px;
+}
+#muing{
+    color: gray;
+    font-size: 12px;
+}
+
+#imgwrap img{
+    width: 200px;
+    height: 270px;
+    display: block;
+    margin: 0 auto;
+    
+}
