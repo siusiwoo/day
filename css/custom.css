@@ -13,7 +13,35 @@
 #resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
 
 header{border-bottom:1px solid #ccc;}
+#title{
+    padding-left: 10px;
+    background-color: white;
+ 
+}
+#menu{
+    display: flex;
+    justify-content: end;
+    align-items: top;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+ul{
+    list-style:none;
+    }
 
+li{
+    float:left;   
+    margin-right: 37px;
+    padding-top:  15px;
+    
+}
+.present{
+    padding-top: 50px;
+}
+.face{
+    padding-top: 50px;
+}
 /* ********************************************************* */
 /* 반응형 Mobile 우선 그리드 시스템
 /* ********************************************************* */
@@ -79,7 +107,8 @@ header{border-bottom:1px solid #ccc;}
     
 }
 .mainvi{
-    background-image: url(/img/mainbg.png);
+    background: url(../img/mainbg.png) no-repeat center;
+    background-color: #BCE7DD;
     height: 580px;
 
 }
@@ -97,5 +126,126 @@ header{border-bottom:1px solid #ccc;}
     height: 270px;
     display: block;
     margin: 0 auto;
+    
+}
+#phot{
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+    margin-top : 30px;
+    padding-bottom: 0px;
+}
+.art{
+    display: block;
+    margin-top : 50px;
+    color: black;
+    font-size: 35px;
+}
+.art2{
+    color: black;
+    font-size: 23px;
+}
+#figma{
+    width: 280px;
+    height: 280px;
+    display: block;
+    margin: 0 auto;
+    margin-top : 25px;
+    padding-bottom: 0px;
+}
+.share{
+    display: block;
+    margin-top : 50px;
+    color: white;
+}
+.share2{
+    display: block;
+    margin-top : 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.standard{
+    height: 300px;
+    background: url(../img/스크린샷\ 2024-10-30\ 162417.png) no-repeat;
+    background-position: center;
+    background-color: #282A36;
+    
+    display: flex;
+    justify-content: center;
+
+}
+.standard b{
+    color:brown;
+    align-content: center;
+    
+    
+}
+.pop{
+    padding-left: 30px;
+}
+
+.big1{
+    display: flex;  
+    justify-content: center;
+    font-size: 46px;
+}
+.big2{
+    color: #ff0066;
+}
+
+.footer-inner{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: solid 1px;
+}
+.sn-editor{
+    
+    padding-left: 30%;
+    background: url(../img/스크린샷\ 2024-11-02\ 132524.png) no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: 20%;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.jinro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.jinro1{
+    width: 350px;
+    height: 350px;
+    
+}
+
+.bap{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bap1{
+    width: 350px;
+    height: 350px;
+    
+}
+.program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.program1{
+    width: 350px;
+    height: 350px;
     
 }
